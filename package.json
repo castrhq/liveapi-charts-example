@@ -1,0 +1,24 @@
+{
+  "name": "liveapi-charts-example",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "chart.js": "^3.7.1",
+    "chartjs-adapter-dayjs-3": "^1.2.3",
+    "chartjs-plugin-zoom": "^1.2.1",
+    "dayjs": "^1.11.2",
+    "lodash": "^4.17.21",
+    "vue": "^3.2.25",
+    "vue-chart-3": "^0.5.11"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.3",
+    "vite": "^2.9.9"
+  }
+}
