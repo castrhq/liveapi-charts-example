@@ -1,3 +1,4 @@
+import _ from 'lodash';
 import axios from "axios";
 
 export default {
@@ -85,7 +86,7 @@ const api = axios.create({
 		res = await api.request(reqConfig);
 	} catch (err) {
 		const edata = _.get(err, 'response.data');
-		throw new RequestError(edata);
+		throw err;
 	}
 
 	return res && res.data;
